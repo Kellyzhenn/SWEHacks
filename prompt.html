@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> This is the title</title>
+    <meta charset="utf-8">
+<!--     <link href="style.css" rel="stylesheet" type="text/css" /> -->
+    <style>
+      body{
+        background-color: #CFE1B9;
+      }
+      
+      h1 {
+        color: black;
+        background-color: white;
+        position: fixed;
+        top: 50%;
+        margin-top: -150px;
+        text-align:center; 
+      }
+
+
+      #prompt{
+        
+      }
+      
+      #promptLeft{
+        top: 310px;
+        float:left;
+        position: absolute;
+      }
+
+      #promptRight{
+        top: 310px;
+        right: 150px;
+        position: absolute;
+        
+      }
+
+      #promptBottom{
+        position: absolute;
+        top: 500px;
+        right: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is the Prompt</h1>
+
+
+    <div id="promptContent">
+      <div id="promptLeft">
+        <input type="text" name="textAnswer" value=""/>          </div>
+      <div id="promptRight">
+        <input type="file" id="pictureUpload" accept="image/*" capture="camera">
+      </div>
+      <div id="promptBottom">
+        <a href = "explore.html">submit</a>
+      </div>
+    </div> 
+  </body>
+</html>
