@@ -1,5 +1,8 @@
+html{
+  height: 100%;
+}
 body {
-  background-color: #CFE1B9;
+  background : linear-gradient(180deg, #CFE1B9, #FFFCD1);
 }
 
 #loginbox {
@@ -12,11 +15,14 @@ body {
   left: 340px;
 }
 #loginbox h1{
-  text-align: center;
+/*   text-align: center;
   padding: 40px;
   font: sans-serif;
   font-size: 40pt;
-  font-weight: normal;
+  font-weight: normal; */
+  position: absolute;
+  bottom: 725px;
+  left: 535px;
 }
 
 #loginbox h3 {
@@ -95,7 +101,7 @@ body {
 }
 
 #exploreoptions a {
-  color: black;
+  color:#606f49;
   text-decoration: none;
   font-weight: normal;
 }
@@ -193,7 +199,6 @@ body {
 
 #personalInfo {
   position: absolute;
-  top: 100px;
   left: 300px;
 }
 
@@ -206,19 +211,19 @@ body {
 #historyQuestion1 {
   position: absolute;
   top: 250px;
+  left: 400px;
   font-size: 20pt;
-  text-align: center;
   border-style: solid;
-  border-color: black;
+  border-color: #728359;
   
 }
 
 #historyAnswer1 {
   position: absolute;
   top: 300px;
+  left: 540px;
   font-size: 20pt;
   text-align: center;
-  background-color: #CFE1B9;
 }
 
 #time2 {
@@ -230,18 +235,17 @@ body {
 #historyQuestion2 {
   position: absolute;
   top: 400px;
+  left: 470px;
   font-size: 20pt;
-  text-align: center;
   border-style: solid;
-  border-color: black;
+  border-color:#728359;
 }
 
 #historyAnswer2 {
   position: absolute;
   top:470px;
+  left:580px;
   font-size: 20pt;
-  text-align: center;
-  background-color: #CFE1B9;
 }
 
 #me_icon {
@@ -261,3 +265,74 @@ body {
   top: 60px;
   right: 280px;
 }
+
+#profilePic{
+  position: absolute;
+  top: 65px;
+  right: 880px;
+}
+
+#profile_me_icon{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  right: 120px;
+}
+
+#gradientBackground{
+  color: #728359;
+}
+
+#promptQuestion {
+  color:#728359;
+  margin-top: 150px;
+  font: sans-serif;
+  text-align:center; 
+  font-size: 40px;  
+}
+
+/* #rec{
+  top: 50px;
+  margin-left: 200px;
+  width: 900px;
+  height: 120px;
+  background-color: white;
+}
+
+  #dim{
+    margin-top: 200px;
+    margin-right: 100px;
+    width: 200px;
+    height 200px;
+    background-color: white;
+    transform: rotate(45deg);
+  }
+ */
+  
+  #promptLeft{
+    top: 310px;
+    left: 200px;
+    position: absolute;
+  }
+
+  #promptRight{
+    top: 310px;
+    right: 150px;
+    position: absolute;
+    
+  }
+
+  #promptBottomRight{
+    position: absolute;
+    top: 500px;
+    right: 200px;
+  }
+
+  #promptBottomLeft{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+  }

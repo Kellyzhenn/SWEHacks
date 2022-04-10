@@ -3,65 +3,12 @@
   <head>
     <title> This is the title</title>
     <meta charset="utf-8">
-<!--     <link href="style.css" rel="stylesheet" type="text/css" /> -->
-    <style>
-      body{
-        background-color: #CFE1B9;
-      }
-      
-      h1 {
-        font: sans-serif;
-        text-align:center; 
-        margin-top: 150px;
-        font-size: 40px;
-      }
+    <link href="style.css" rel="stylesheet" type="text/css" /> 
 
-      #rec{
-        margin-top: -100px;
-        margin-left: 200px;
-        width: 900px;
-        height: 120px;
-        background-color: white;
-      }
-
-      #dim{
-        margin-top: 200px;
-        margin-right: 100px;
-        width: 200px;
-        height 200px;
-        background-color: white;
-        transform: rotate(45deg);
-      }
-
-      
-      #promptLeft{
-        top: 310px;
-        left: 200px;
-        position: absolute;
-      }
-
-      #promptRight{
-        top: 310px;
-        right: 150px;
-        position: absolute;
-        
-      }
-
-      #promptBottomRight{
-        position: absolute;
-        top: 500px;
-        right: 200px;
-      }
-
-      #promptBottomLeft{
-        position: absolute;
-        top: 500px;
-        left: 200px;
-      }
-    </style>
+  
   </head>
   <body>
-    <h1>What weird food combination do you enjoy?</h1>
+    <h1 id="promptQuestion">What weird food combination do you enjoy?</h1>
     <div id="rec"></div>
     <div id="dim"></div>
 

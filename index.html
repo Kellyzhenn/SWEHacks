@@ -8,14 +8,16 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-  <body>
+<body>
     
-  </body>
+
 
 <div id= "loginbox">
   <header>
     <h1>
-      Moments
+      <a id = "logo"><img id="logo.png" src="images/logo.png"
+       width="150" 
+       height="150"></a>
     </h1>
     <h3>
       Username
@@ -24,10 +26,12 @@
       Password
     </h4>
     <a href="prompt.html">sign in</a><br>
+    <button id="btn-login" disabled="true" onclick="login()">Log in</button>
+    <button id="btn-logout" disabled="true" onclick="logout()">Log out</button>
     <h2>
       sign up
     </h2>
   </header>
 </div>
-
+  </body>
 </html>
