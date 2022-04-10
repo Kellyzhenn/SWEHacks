@@ -10,22 +10,33 @@
       }
       
       h1 {
-        color: black;
-        background-color: white;
-        position: fixed;
-        top: 50%;
-        margin-top: -150px;
+        font: sans-serif;
         text-align:center; 
+        margin-top: 150px;
+        font-size: 40px;
       }
 
-
-      #prompt{
-        
+      #rec{
+        margin-top: -100px;
+        margin-left: 200px;
+        width: 900px;
+        height: 120px;
+        background-color: white;
       }
+
+      #dim{
+        margin-top: 200px;
+        margin-right: 100px;
+        width: 200px;
+        height 200px;
+        background-color: white;
+        transform: rotate(45deg);
+      }
+
       
       #promptLeft{
         top: 310px;
-        left: 900px;
+        left: 200px;
         position: absolute;
       }
 
@@ -36,26 +47,34 @@
         
       }
 
-      #promptBottom{
+      #promptBottomRight{
         position: absolute;
         top: 500px;
         right: 200px;
       }
+
+      #promptBottomLeft{
+        position: absolute;
+        top: 500px;
+        left: 200px;
+      }
     </style>
   </head>
   <body>
-    <h1>This is the Prompt</h1>
+    <h1>What weird food combination do you enjoy?</h1>
+    <div id="rec"></div>
+    <div id="dim"></div>
 
-
-    <div id="promptContent">
       <div id="promptLeft">
-        <input type="text" name="textAnswer" value=""/>          </div>
+        <input type="text" name="textAnswer" value="" style="height=200px"/>          </div>
       <div id="promptRight">
         <input type="file" id="pictureUpload" accept="image/*" capture="camera">
       </div>
-      <div id="promptBottom">
-        <a href = "explore.html">submit</a>
+      <div id="promptBottomRight">
+        <a href = "explore.html">Let's go</a>
       </div>
-    </div> 
+      <div id="promptBottomLeft">
+        <a href = "explore.html">I will skip for today:(</a>
+      </div>
   </body>
 </html>

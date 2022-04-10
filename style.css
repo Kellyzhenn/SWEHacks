@@ -89,10 +89,175 @@ body {
 
 #exploreoptions {
   text-align: center;
-  word-spacing: 50px;
+  word-spacing: 150px;
+  font-size: 25pt;
+  padding-top: 40px;
 }
 
 #exploreoptions a {
   color: black;
   text-decoration: none;
+  font-weight: normal;
+}
+
+#kayak{
+  width: 350px;
+  height: 320px;
+  position: absolute;
+  top: 150px;
+  left: 90px
+}
+
+#puppy{
+  width: 350px;
+  height: 220px;
+  position: absolute;
+  top: 150px;
+  right: 90px
+}
+
+#couple{
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  top: 490px;
+  left: 90px;
+}
+
+#library{
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 390px;
+  right: 90px
+}
+
+#snorkel{
+  width: 350px;
+  height: 280px;
+  position: absolute;
+  top: 309px;
+  right: 540px;
+}
+
+#pineapple {
+  width: 350px;
+  height: 100px;
+  text-align: center;
+  font: sans-serif;
+  font-weight: normal;
+  background-color: white;
+  text-weight: normal;
+  font-size: 18pt;
+  position: absolute;
+  top: 130px;
+  right: 540px;
+  padding-top: 40px;
+}
+
+#chipotle {
+  width: 350px;
+  height: 85px;
+  font: sans-serif;
+  font-size: 18pt;
+  font-weight: normal;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  top: 590px;
+  right: 540px;
+  padding-top: 40px;
+}
+
+#dubs{
+  width: 350px;
+  height: 270px;
+  position: absolute;
+  top: 150px;
+  right: 90px
+}
+
+#csbuilding {
+  width: 350px;
+  height: 295px;
+  position: absolute;
+  top: 442px;
+  right: 90px
+}
+
+#editProfile {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+#personalInfo {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+
+#time1 {
+  position: absolute;
+  top: 200px;
+  right: 80px;
+}
+
+#historyQuestion1 {
+  position: absolute;
+  top: 250px;
+  font-size: 20pt;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  
+}
+
+#historyAnswer1 {
+  position: absolute;
+  top: 300px;
+  font-size: 20pt;
+  text-align: center;
+  background-color: #CFE1B9;
+}
+
+#time2 {
+  position: absolute;
+  top: 370px;
+  right: 80px;
+}
+
+#historyQuestion2 {
+  position: absolute;
+  top: 400px;
+  font-size: 20pt;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+}
+
+#historyAnswer2 {
+  position: absolute;
+  top:470px;
+  font-size: 20pt;
+  text-align: center;
+  background-color: #CFE1B9;
+}
+
+#me_icon {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  right: 120px;
+}
+
+#search_icon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 60px;
+  right: 280px;
 }
